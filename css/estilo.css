@@ -632,18 +632,3 @@ body:hover .bubbles {
 }
 
 
-.mensaje {
-    position: fixed;
-    top: 10%;
-    left: 50%;  /* Centrado en la pantalla */
-    transform: translateX(-50%);
-    z-index: 1000;
-    font-size: 1vw;  /* Tamaño del texto adaptativo */
-    max-width: 90%;  /* Para evitar que se salga de la pantalla */
-    text-align: center; /* Asegurar que el texto se vea bien */
-    padding: 10px;
-    border-radius: 5px;
-    white-space: normal; /* Permitir que el texto se ajuste */
-    display: block;
-    color: rgb(4, 97, 46);
-}
